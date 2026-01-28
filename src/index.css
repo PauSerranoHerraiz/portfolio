@@ -24,7 +24,9 @@ a:hover {
 
 body {
   margin: 0;
-  text-align: center;
+  font-family: system-ui, sans-serif;
+  background: #0f172a;
+  color: #e5e7eb;
 }
 
 h1 {
@@ -51,3 +53,57 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+li {
+  list-style: none;
+}
+
+.home {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
+}
+
+.home h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.home h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #94a3b8;
+  margin-bottom: 2rem;
+}
+
+.home p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1.2rem;
+}
+
+.highlight {
+  color: #38bdf8;
+}
+
+.home-buttons {
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.btn.primary {
+  background: #38bdf8;
+  color: #020617;
+}
+
+.btn.secondary {
+  border: 1px solid #38bdf8;
+  color: #38bdf8;
+}
