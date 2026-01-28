@@ -1,16 +1,62 @@
-# React + Vite
+# 💼 Pau Serrano - Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio showcasing my projects and skills as a Junior Full Stack Developer.
 
-Currently, two official plugins are available:
+## 🚀 Built With
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React** - Frontend framework
+- **React Router** - Client-side routing
+- **Vite** - Build tool
+- **CSS3** - Styling (Dracula/Oh My Zsh theme)
+- **Formspree** - Contact form handling
 
-## React Compiler
+## 🎨 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ✨ Terminal-inspired design (Oh My Zsh style)
+- 📱 Fully responsive design
+- 🎯 Project showcase with live demos
+- 📧 Contact form with validation
+- ♿ Accessible navigation with ARIA labels
+- 🌐 SEO optimized
 
-## Expanding the ESLint configuration
+## 🛠️ Installation & Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+# Clone the repository
+git clone https://github.com/PauSerranoHerraiz/portfolio.git
+
+# Navigate to project directory
+cd portfolio
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+## 📂 Project Structure
+
+```
+portfolio/
+├── src/
+│   ├── components/    # Reusable components
+│   ├── pages/         # Page components
+│   ├── data/          # Project data
+│   ├── App.jsx
+│   └── index.css
+├── public/
+└── index.html
+```
+
+## 📬 Contact
+
+- **LinkedIn**: [Pau Serrano Herraiz](https://www.linkedin.com/in/pau-serrano-herraiz)
+- **GitHub**: [@PauSerranoHerraiz](https://github.com/PauSerranoHerraiz)
+
+## 📄 License
+
+This project is open source and available under the MIT License.
