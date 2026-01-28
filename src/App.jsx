@@ -1,28 +1,50 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Projects from "./pages/Projects";
-import Contact from "./pages/Contact";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+import { useEffect } from 'react'
+import ReactGA from 'react-ga4'
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
+import Home from './pages/Home'
+import About from './pages/About'
+import Projects from './pages/Projects'
+import Contact from './pages/Contact'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
-function App() {
+function AppContent() {
+  const location = useLocation()
+
+  useEffect(() => {
+    ReactGA.send({ 
+      hitType: 'pageview', 
+      page: location.pathname,
+      title: document.title 
+    })
+  }, [location])
+
   return (
-    <BrowserRouter>
-      <div className="app-wrapper">
-        <Navbar />
-        <main className="main-content">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/contact" element={<Contact />} />
-          </Routes>
-        </main>
-        <Footer />
-      </div>
-    </BrowserRouter>
-  );
+    <div className="app-wrapper">
+      <Navbar />
+      <main className="main-content">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </main>
+      <Footer />
+    </div>
+  )
 }
 
-export default App;
+function App() {
+  useEffect(() => {
+    ReactGA.initialize('G-H0GL460SLJ') 
+  }, [])
+
+  return (
+    <BrowserRouter>
+      <AppContent />
+    </BrowserRouter>
+  )
+}
+
+export default App
