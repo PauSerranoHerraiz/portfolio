@@ -17,7 +17,7 @@ function About() {
       <h1>About Me</h1>
 
       <p>
-        I'm a Junior Full Stack Developer based in Spain, passionate about building
+        I'm a Full Stack Developer based in Spain, passionate about building
         clean and functional web applications using modern technologies.
       </p>
 
@@ -29,7 +29,7 @@ function About() {
       </p>
 
       <p>
-        I'm actively seeking a junior developer position where I can contribute to
+        I'm actively seeking a developer position where I can contribute to
         meaningful projects, learn from experienced developers, and grow within a
         collaborative team environment.
       </p>

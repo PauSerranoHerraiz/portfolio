@@ -1,6 +1,6 @@
 # 💼 Pau Serrano - Portfolio
 
-Personal portfolio showcasing my projects and skills as a Junior Full Stack Developer.
+Personal portfolio showcasing my projects and skills as a Full Stack Developer.
 
 ## 🚀 Built With
 
