@@ -1,6 +1,7 @@
 function About() {
   const skills = [
     "JavaScript (ES6+)",
+    "TypeScript",
     "React",
     "Node.js",
     "Express",
