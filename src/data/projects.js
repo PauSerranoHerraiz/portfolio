@@ -45,7 +45,18 @@ const projects = [
         demo: "https://albumory-music.vercel.app/"
     },
     {
-        id: 4,
+        id: 5,
+        title: "Tic-Tac-Toe Game",
+        description:
+             "A browser-based Tic-Tac-Toe game built in JavaScript, with retro console aesthetics, 8-bit sounds",
+        tech: ["JavaScript", "HTML", "CSS"],
+        challenges:
+            "Implementing modular architecture with IIFEs, managing game state, handling AI moves, and creating interactive UI with animations and sounds.",
+        github: "https://github.com/PauSerranoHerraiz/tic-tac-toe",
+        demo: "https://pauserranoherraiz.github.io/tic-tac-toe"
+    },
+    {
+        id: 5,
         title: "Type Invasion - Word Typing Game",
         description:
             "My first project during a MERN bootcamp. A browser-based typing game where players must correctly type words displayed on the screen.",
