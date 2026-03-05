@@ -16,9 +16,8 @@ function Navbar() {
     <header className="navbar">
       <div className="navbar-container">
         <NavLink to="/" className="logo" onClick={closeMenu}>
-          <span className="logo-bracket">{"<"}</span>
+          <span className="logo-dot" aria-hidden="true"></span>
           Pau Serrano Herráiz
-          <span className="logo-bracket">{" />"}</span>
         </NavLink>
 
         <button 

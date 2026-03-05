@@ -20,19 +20,19 @@ function About() {
     <section className="about">
       <h1>About Me</h1>
 
-      <p>
+      <p className="about-text">
         I'm a Full Stack Developer based in Spain, passionate about building
         clean and functional web applications using modern technologies.
       </p>
 
-      <p>
-        After completing an intensive full stack bootcamp, I've gained hands-on experience
-        with the MERN stack through projects like collaborative task managers, digital music
-        libraries, and interactive games. I focus on writing maintainable code and solving
-        real-world problems.
+      <p className="about-text">
+        After completing an intensive full stack bootcamp, I've gained hands-on
+        experience with the MERN stack through projects like collaborative task
+        managers, digital music libraries, and interactive games. I focus on
+        writing maintainable code and solving real-world problems.
       </p>
 
-      <p>
+      <p className="about-text">
         I'm actively seeking a developer position where I can contribute to
         meaningful projects, learn from experienced developers, and grow within a
         collaborative team environment.
